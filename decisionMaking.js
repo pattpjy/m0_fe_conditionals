@@ -37,11 +37,11 @@ if (bearChoice === 1) {
 // 1. In English, using technical vocabulary, describe what is happening between lines 12 and 16.
 // create condition if doorChoic is strickly equal to 1, bearClothing is a hat, if not, it will be scarf
 // 2. What variable has a new value assigned to it after the first if statement executes?
-bearClothing
+//bearClothing
 // 3. If you changed the variable doorChoice to equal 3, what would the bearClothing value be?
-scarf
+//scarf
 // 4. In English, using technical vocabulary, describe what is happening between lines lines 25 and 33.
-decalre if statement with condition if bearChoice strickly equal to 1, concatenate " you off the bear your" insert assigned bearCloth close with is too small for the bear, do you
+//decalre if statement with condition if bearChoice strickly equal to 1, concatenate " you off the bear your" insert assigned bearCloth close with is too small for the bear, do you
 // 5. If you changed the variable bearChoice to equal 3, what will be the final outcome be?
 
 //You run as fast as you can into the next room it's full of snakes
@@ -53,4 +53,4 @@ decalre if statement with condition if bearChoice strickly equal to 1, concatena
 // 2. Point it out to the bear?")?
 // 3. Make a dash for the next room?
 // you tell the bear that the hat is too small and it starts to cry.
-// 7. What is your favorite ending?
+// 7. What is your favorite ending? offer your own to the bear
