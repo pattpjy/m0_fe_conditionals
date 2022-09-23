@@ -60,21 +60,21 @@ console.log("is numberStudents less than or equal to 21?", numberStudents<=21)
 // Make sure YOU can explain it that way!
 
 console.log(4 < 9);
-// YOU DO: Explain. 
+// YOU DO: Explain. compare if 4 is less than 9: this should log : true
 
 var books = 3;
 console.log(4 < books);
-// YOU DO: Explain.
+// YOU DO: Explain. compare if 4 is less than 3; books assigned to 3
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
-// YOU DO: Explain.
+// YOU DO: Explain.friends assigned to 6 and siblings to 2, compare if 6 is more than 2, this should log : true
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees != meals);
-// YOU DO: Explain.
+// YOU DO: Explain. attendees assigned to 9 and meals assigned to 8, compare if 9 is not strickly equal to 8, this should log ; true
 
 
 // #-------------------
@@ -98,14 +98,21 @@ var age = 1;
 // YOU DO:
 // Determine if the dog loves to play and loves treats
 
+console.log(lovesToplay && lovesTreats);
 
 // Determine if the dog loves to play and loves the dog park
 
+console.log(lovesToplay && lovesDogPark);
 
 // Determine if the dog loves to play or loves the dog park
 
+console.log(lovesToPlay || lovesDogPark);
 
 // Determine if the dog loves to play and is a puppy
+if (age < 2) {
+  isAPuppy = true;
+}
+console.log(lovesToPlay && isAPuppy)
 
 // What did your final line of code evaluate to? Why do you think that is? Explain.
-// ANSWER:
+// ANSWER: true and true, becuae I define the condition for puppy age is 2 and the dog's age is one. He is a puppy.
